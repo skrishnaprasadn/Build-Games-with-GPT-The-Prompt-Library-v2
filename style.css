@@ -1,83 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Build Games with GPT - Free Prompt Library</title>
+/* ===============================
+   Global Styles
+================================= */
 
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-<section class="hero">
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#0f172a,#2563eb,#38bdf8);
+    color:#ffffff;
+}
 
-    <div class="container">
+/* ===============================
+   Hero Section
+================================= */
 
-        <h1>Build Games with GPT Prompt Library</h1>
+.hero{
 
-        <p>
-            Build AI-powered games faster with this ready-to-use GPT Prompt Library.
-        </p>
-<div class="rating">
-    ⭐⭐⭐⭐⭐
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+/* ===============================
+   Container
+================================= */
+
+.container{
+
+    max-width:800px;
+
+}
+
+/* ===============================
+   Heading
+================================= */
+
+h1{
+
+    font-size:56px;
+
+    margin-bottom:30px;
+
+    font-weight:bold;
+
+}
+
+/* ===============================
+   Paragraph
+================================= */
+
+p{
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+
+}
+
+/* ===============================
+   CTA Button
+================================= */
+
+.btn{
+
+    display:inline-block;
+
+    background:#ff7a00;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:20px 55px;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    border-radius:50px;
+
+    transition:.3s;
     
-    <span>Designed for AI Game Developers</span>
-</div>
-
-<div class="features">
-
-    <p>✓ Premium GPT Game Prompts</p>
-
-    <p>✓ Ready-to-use Prompt Library</p>
-
-    <p>✓ 100+ Ready-to-use GPT Prompts</p>
-
-    <p>✔ Instant Download</p>
-
-</div>
-        <a href="https://appsave.store/cl/i/xp2wd1" class="btn" target="_blank">
-    Download Now
-</a>
-
-    </div>
-
-</section>
-
-</body>
-</html>
-
-.hero-content{
-
-display:flex;
-
-align-items:center;
-
-justify-content:space-between;
-
-gap:60px;
-
-flex-wrap:wrap;
+    box-shadow:0 10px 25px rgba(255,122,0,.35);
 
 }
 
-.hero-image{
+.btn:hover{
 
-flex:1;
+    background:#ff9500;
 
-text-align:center;
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+}
+/* ===========================
+   Rating
+=========================== */
+
+.rating {
+    margin: 20px 0;
+    color: #FFD700;
+    font-size: 30px;
+}
+
+.rating span {
+    display: block;
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+/* ===========================
+   Features
+=========================== */
+
+.features{
+
+    margin-bottom:40px;
 
 }
 
-.hero-image img{
+.features p{
 
-max-width:320px;
+    font-size:22px;
 
-width:100%;
+    margin:10px 0;
 
-}
-
-.hero-text{
-
-flex:1;
+    font-weight:500;
 
 }
